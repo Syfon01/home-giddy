@@ -193,4 +193,10 @@ animation-duration: 0ms;
   .desk-top{
     padding-top: 10px;
   }
+  .client-img{
+    margin-top: -70px;
+  }
+  .mar-top{
+    margin-top: 40px;
+  }
 }
