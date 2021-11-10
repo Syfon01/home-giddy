@@ -116,7 +116,7 @@ body{
 }
 #started{
   background-color: rgba(255, 250, 234, 0.5);
-  margin-top: -50px;
+  margin-top: -75px;
 }
 .nav-link{
   color:rgba(0, 0, 61, 1);
@@ -151,5 +151,5 @@ body{
 .btn-started{
   background-color: #fff;
   font-weight: 600;
-  
+
 }
