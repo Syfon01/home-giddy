@@ -144,3 +144,12 @@ body{
   height: 10px;
   border-radius: 100%;
 }
+#plan{
+  background-color: rgba(0, 0, 61, 1);
+  color: #fff;
+}
+.btn-started{
+  background-color: #fff;
+  font-weight: 600;
+  
+}
