@@ -39,6 +39,9 @@ body{
 .tx-24{
   font-size: 1.5rem;
 }
+.tx-16{
+  font-size: 1rem;
+}
 .tx-9{
   font-size: 0.52rem;
 }
@@ -136,6 +139,10 @@ body{
 .fw-medium{
   font-weight: 500;
 }
+.carousel-indicators{
+  right: auto!important;
+  margin-left: 0%!important;
+}
 .carousel-indicators .active{
   background-color: rgba(251, 175, 0, 1);
 }
@@ -157,11 +164,33 @@ body{
 .navbar-toggler{
   border: 1px solid rgba(151, 151, 151, 1);
 }
+#ready{
+  background-image: url('./img/circle-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 
+}
+.btn-contact{
+  border:1px solid rgba(0, 0, 61, 1);
+animation-duration: 0ms;
+
+}
+.desk-top{
+  padding-top: 20px;
+}
+.client-img{
+  margin-top: -200px;
+}
+.mar-top{
+  margin-top: 120px;
+}
 
 
 @media (max-width: 575.98px) { 
   .top-pad{
     padding-top: 25px;
+  }
+  .desk-top{
+    padding-top: 10px;
   }
 }
