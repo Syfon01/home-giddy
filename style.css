@@ -311,5 +311,14 @@ color: #FFFAEA;
   .img-left{
     padding-left: 0rem;
   }
+  #prop-banner{
+    background-image: url(./img/Subtract.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-origin: content-box;
+    padding-right: 0px;
+  }
+  
   
 }
