@@ -143,40 +143,64 @@
     </section>
     <section id="options">
       <div class="container py-5">
-        <div class="row">
-          <div class="col-md-4 col-lg-3 col-12 mb-4">
-            <div class="bg-grey p-4">
-              <p class="tx-24 tx-blue fw-bold tx-display">Make an Offer</p>
-              <p class="mb-1 pb-3 tx-12 fw-bold tx-blue">Can’t find a preferrred option, 
-                we have made it easy for you,
-                Reach out to us with an offer
-                and we will work something out
-              </p>
-              <div class="mt-5 mb-3">
-                <a href="./offer-property.html" class="btn btn-blue fw-bold w-100 btn-lg">Make Offer</a>
+        <div class="col-xl-11 px-0">
+          <div class="row gx-5">
+            <div class="col-md-8 col-lg-8 col-12 mb-4 pe-xl-5">
+              <div class="pe-lg-5">
+                <p class="tx-24 tx-blue fw-bold tx-display">Make an Offer</p>
+                <form class="row g-3">
+                  <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label tx-blue fw-bold">Deposit Amount</label>
+                    <input type="type" class="form-control" id="" placeholder="Input price">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label tx-blue fw-bold">Payment Frequency</label>
+                    <select id="inputState" class="form-select">
+                      <option selected>2 Installments</option>
+                      <option value="1">1 Installments</option>
+                      <option value="2">2 Installments</option>
+                      <option value="3">3 Installments</option>
+                    </select>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label tx-blue fw-bold">Term</label>
+                    <input type="text" placeholder="6 months" class="form-control" id="">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label tx-blue fw-bold">Total Purchase Price</label>
+                    <input type="text" placeholder="Input Price" class="form-control" id="">
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="mt-3">
+                      <button class="btn btn-blue fw-bold w-100 btn-lg">Send Request</button>
+                    </div>
+                  </div>
+                </form>
+                
               </div>
             </div>
-          </div>
-          <div class="col-md-4 col-lg-3 col-12 mb-4">
-            <div class="bg-grey p-4">
-              <div class="d-flex justify-content-between">
-              <p class="tx-24 tx-blue fw-bold tx-display">Join a Savings</p>
-              <div class="">
-                <img src="./img/joint-save.svg" class="img-fluid" alt="" srcset="">
-              </div>
-              </div>
-              <p class="mb-1 pb-3 tx-12 fw-bold tx-blue">Can’t find a preferrred option, 
-                we have made it easy for you,
-                Reach out to us with an offer
-                and we will work something out
-              </p>
-              
-              <div class="mt-5 mb-3">
-                <a href="./select-property.html" class="btn btn-blue fw-bold w-100 btn-lg">Select Offer</a>
+            <div class="col-md-4 col-lg-3 col-12 mb-4 px-xl-0 ">
+              <div class="bg-grey p-4">
+                <div class="d-flex justify-content-between">
+                <p class="tx-24 tx-blue fw-bold tx-display">Join a Savings</p>
+                <div class="">
+                  <img src="./img/joint-save.svg" class="img-fluid" alt="" srcset="">
+                </div>
+                </div>
+                <p class="mb-1 pb-3 tx-12 fw-bold tx-blue">Can’t find a preferrred option, 
+                  we have made it easy for you,
+                  Reach out to us with an offer
+                  and we will work something out
+                </p>
+                
+                <div class="mt-5 mb-3">
+                  <a href="./select-property.html" class="btn btn-blue fw-bold w-100 btn-lg">Select Offer</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
+       
       </div>
     </section>
     <section id="preference">
