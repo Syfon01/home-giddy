@@ -21,6 +21,11 @@ body{
   line-height: 1.0;
 
 }
+.tx-50{
+  font-size: 3.1rem;
+  font-family: 'Blacker Display', sans-serif;
+  line-height: 1.0;
+}
 .tx-14{
   font-size: 0.875rem;
 }
@@ -51,11 +56,11 @@ body{
 
 }
 .top-pad{
-  padding-top: 125px;
+  padding-top: 100px;
 }
 
 .neg-img{
-  margin-top: -100px;
+  margin-top: -120px;
 }
 .img-container{
   background: url(./img/bg.png);
@@ -122,8 +127,8 @@ body{
   margin-top: -75px;
 }
 .nav-link{
-  color:rgba(0, 0, 61, 1);
-  font-weight: 500;
+  color:rgba(0, 0, 61, 1)!important;
+  font-weight: 500!important;
 }
 .navbar-expand-lg .navbar-nav .nav-link{
   padding: 8px 20px!important;
@@ -184,8 +189,56 @@ animation-duration: 0ms;
 .mar-top{
   margin-top: 120px;
 }
+.btn-blue{
+  background-color: rgba(0, 0, 61, 1);
+  color: #fff;
+}
 
+/*========================================================================================
+ about us page
+ ================================================================================== */
+#vision{
+  background-image: url(./img/Ellipse-about.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 400px 300px;
+}
 
+.top-about{
+  padding-top: 6rem;
+}
+.img-left{
+  padding-left: 1rem;
+}
+
+.shadow-btn{
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 40px 30px 0px rgba(25, 25, 46, 0.04);
+  border-radius: 1.5rem;
+}
+.margin-label{
+  margin-top: 5rem;
+}
+
+.accordion-button::after{
+  background-image: url(./img/plus.png);
+  background-size: 10px 10px;
+  
+}
+.accordion-button:not(.collapsed)::after{
+  background-image: url(./img/minus.png);
+  background-size: 10px 10px;
+}
+.accordion-button:not(.collapsed){
+  color: #fff;
+  background: rgba(0, 0, 61, 1);
+}
+.accordion-button{
+  border: 1px solid rgba(0, 0, 61, 1);
+}
+.accordion-item{
+  border: none;
+}
 @media (max-width: 575.98px) { 
   .top-pad{
     padding-top: 25px;
@@ -199,4 +252,14 @@ animation-duration: 0ms;
   .mar-top{
     margin-top: 40px;
   }
+  .neg-img{
+    margin-top: -60px;
+  }
+  .top-about{
+    padding-top: 5rem;
+  }
+  .img-left{
+    padding-left: 0rem;
+  }
+  
 }
