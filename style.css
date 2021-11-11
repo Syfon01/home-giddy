@@ -8,12 +8,15 @@ body{
 
 }
 
+.tx-displa{
+  font-family: 'Blacker Text', sans-serif;
+}
 
 #header{
   background: #FFFAEA;
 }
 .tx-blue{
-  color: #00003D;
+  color: #00003D!important;
 }
 .tx-55{
   font-size: 3.4rem;
@@ -25,6 +28,9 @@ body{
   font-size: 3.1rem;
   font-family: 'Blacker Display', sans-serif;
   line-height: 1.0;
+}
+.tx-40{
+  font-size: 2.5rem;
 }
 .tx-14{
   font-size: 0.875rem;
@@ -89,6 +95,9 @@ body{
 .link{
   /* color: #fff; */
   text-decoration: none;
+}
+.bg-grey{
+  background: rgba(246, 247, 251, 1);
 }
 .img-16{
   width: 16px;
@@ -256,6 +265,30 @@ color: #FFFAEA;
  .bd-gray{
    border-left: 3px solid rgba(234, 234, 234, 1);
  }
+.prop.carousel-control-next-icon{
+  background-image: url(./img/arrow-up-circlee.png);
+  background-size: auto;
+}
+.prop.carousel-control-prev-icon{
+  background-image: url(./img/arrow-up-circle.svg);
+  background-size: auto;
+}
+.prop.carousel-control-next, .prop.carousel-control-prev{
+  opacity: 1;
+}
+#prop-banner{
+  background-image: url(./img/Subtract.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 175px 175px;
+  background-origin: content-box;
+  padding-right: 50px;
+}
+
+
+
+
+
 @media (max-width: 575.98px) { 
   .top-pad{
     padding-top: 25px;
