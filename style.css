@@ -243,6 +243,19 @@ color: #FFFAEA;
 .accordion-item{
   border: none;
 }
+
+/*====================================================================
+ property pages 
+ ==================================================================*/
+ .btn-property{
+   border: 1px solid rgba(234, 234, 234, 1);
+ }
+ .bd-primary{
+   border-left: 3px solid rgba(251, 175, 0, 1);
+ }
+ .bd-gray{
+   border-left: 3px solid rgba(234, 234, 234, 1);
+ }
 @media (max-width: 575.98px) { 
   .top-pad{
     padding-top: 25px;
