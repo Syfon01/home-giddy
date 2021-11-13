@@ -247,10 +247,10 @@ color: #FFFAEA;
 }
 .accordion-button:not(.collapsed){
   color: #fff;
-  background: rgba(0, 0, 61, 1);
+  background: rgba(251, 175, 0, 1)!important;
 }
 .accordion-button{
-  border: 1px solid rgba(0, 0, 61, 1);
+  border: 1px solidrgba(251, 175, 0, 1);
 }
 .accordion-item{
   border: none;
