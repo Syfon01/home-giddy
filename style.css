@@ -329,6 +329,10 @@ color: #FFFAEA;
     background-origin: content-box;
     padding-right: 0px;
   }
-  
+  .bg-wh{
+    background-image: url(./img/B&G.png);
+    height: 400px;
+    background-repeat: no-repeat;
+  }
   
 }
