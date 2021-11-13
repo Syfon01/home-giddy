@@ -1,15 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap');
-@import url('http://fonts.cdnfonts.com/css/blacker-display');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('http://fonts.cdnfonts.com/css/noe-display');
+
+                
       
 body{
-  font-family: 'Blacker Display', sans-serif;
-  font-family: 'Blacker Text', sans-serif;
-  font-family: 'Darker Grotesque', sans-serif;
+  font-family: 'Noe Display', sans-serif;
+  font-family: 'Muli', sans-serif;
 
-}
-
-.tx-displa{
-  font-family: 'Blacker Text', sans-serif;
 }
 
 #header{
@@ -20,13 +17,13 @@ body{
 }
 .tx-55{
   font-size: 3.4rem;
-  font-family: 'Blacker Display', sans-serif;
+  font-family: 'Noe Display', sans-serif;
   line-height: 1.0;
 
 }
 .tx-50{
   font-size: 3.1rem;
-  font-family: 'Blacker Display', sans-serif;
+  font-family: 'Noe Display', sans-serif;
   line-height: 1.0;
 }
 .tx-40{
@@ -57,7 +54,7 @@ body{
   font-size: 0.52rem;
 }
 .tx-display{
-  font-family: 'Blacker Display', sans-serif;
+  font-family: 'Noe Display', sans-serif;
   line-height: 1.0;
 
 }
@@ -125,7 +122,7 @@ body{
 }
 .notify-badge{
   position: absolute;
-  right:38px;
+  right:2px;
   top:0px;
   /* padding:5px 10px; */
   font-size:10px;
@@ -144,7 +141,7 @@ body{
 
 }
 .bg-form-gray{
-  background-color: rgba(246, 247, 251, 1);
+  background-color: #fff;
 }
 .input-transparent{
   background-color: transparent!important;
@@ -184,6 +181,9 @@ body{
   background-repeat: no-repeat;
 
 }
+.readdy{
+  background-color: rgba(255, 250, 234, 0.5)!important;
+}
 .btn-contact{
   border:1px solid rgba(0, 0, 61, 1);
 animation-duration: 0ms;
@@ -199,14 +199,17 @@ animation-duration: 0ms;
   margin-top: 120px;
 }
 .btn-blue{
-  background-color: rgba(0, 0, 61, 1);
+  background-color: rgba(251, 175, 0, 1);
   color: #fff;
 }
 .btn-blue:hover{
   background-color: rgb(0, 0, 39);
 color: #FFFAEA;
 }
-
+.bg-wh{
+  background-image: url(./img/B&G.png);
+  background-size: cover;
+}
 /*========================================================================================
  about us page
  ================================================================================== */
