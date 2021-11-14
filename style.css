@@ -302,7 +302,7 @@ a.link:hover, a.nav-link:hover{
 color: rgba(251, 175, 0, 1)!important;
 }
 .btn-new{
-  border: 2px solid #fff;
+  border: 3px solid #fff;
   border-radius: 25px;
 }
 .btn-new:hover{
