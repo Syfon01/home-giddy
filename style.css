@@ -308,7 +308,7 @@ color: rgba(251, 175, 0, 1)!important;
 .btn-new:hover{
   background-color: rgba(251, 175, 0, 1)!important;
   color: #fff!important;
-  border: 2px solid rgba(251, 175, 0, 1);
+  border: 3px solid rgba(251, 175, 0, 1);
 }
 
 @media (max-width: 575.98px) { 
