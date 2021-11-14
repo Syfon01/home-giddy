@@ -298,6 +298,18 @@ color: #FFFAEA;
   border: 2px solid rgba(0, 0, 61, 1);
 }
 
+a.link:hover, a.nav-link:hover{
+color: rgba(251, 175, 0, 1)!important;
+}
+.btn-new{
+  border: 2px solid #fff;
+  border-radius: 25px;
+}
+.btn-new:hover{
+  background-color: rgba(251, 175, 0, 1)!important;
+  color: #fff!important;
+  border: 2px solid rgba(251, 175, 0, 1);
+}
 
 @media (max-width: 575.98px) { 
   .top-pad{
@@ -334,5 +346,7 @@ color: #FFFAEA;
     height: 400px;
     background-repeat: no-repeat;
   }
-  
+  p{
+    font-size: 0.875rem;
+  }
 }
