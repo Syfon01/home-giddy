@@ -358,7 +358,7 @@ color: rgba(251, 175, 0, 1)!important;
     padding-bottom: 30px;
   }
   .home-flex{
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
   }
 }
