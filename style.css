@@ -349,4 +349,16 @@ color: rgba(251, 175, 0, 1)!important;
   p{
     font-size: 0.875rem;
   }
+  .home.carousel-indicators{
+    margin-bottom: -20px;
+    right: 0!important;
+    /* padding-bottom: 50px; */
+  }
+  #header{
+    padding-bottom: 30px;
+  }
+  .home-flex{
+    display: flex;
+    justify-content: space-between;
+  }
 }
