@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.cdnfonts.com/css/noe-display" rel="stylesheet">
     <title>Homegiddy</title>
@@ -55,166 +56,47 @@
           </div>
         </nav>
         <div class="header-content">
-          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators home">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <div class="row">
+            <div class="col-md-5 col-12 order-md-1 order-2">
+              <div class="col-xl-11 top-pad">
+                <p class="tx-55 tx-blue fw-bold">
+                  Own a home on your own terms.
+                </p>
+              </div>
+              <p class="tx-18  col-xl-9 tx-blue">
+                Find good quality homes with bespoke payment plans, premium support and more
+
+              </p>
+
+              <!-- <div class="col-md-7">
+                <div class="d-flex home-flex">
+                  <div>
+                     <p class="tx-blue">
+                       <a href="" class="btn btn-new tx-14 tx-blue  me-1 px-3">
+                        Save Money
+                       </a>
+                    </p>
+                  </div>
+                  <div>
+                    <p class="tx-blue">
+                    <a href="" class="btn btn-new tx-14 tx-blue px-4 w-100">
+                      Save Process
+                     </a>
+                   </p>
+                 </div>
+                </div>
+              </div> -->
+
+              <button class="btn btn-prim px-5 fw-medium mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <i class="fa fa-search me-1"></i>
+              FIND HOME
+              </button>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="row">
-                  <div class="col-md-5 col-12 order-md-1 order-2">
-                    <div class="col-xl-11 top-pad">
-                      <p class="tx-55 tx-blue fw-bold">
-                        Own a home on your own terms.
-                      </p>
-                    </div>
-                    <p class="tx-18  col-xl-9 tx-blue">
-                      Find good quality homes with bespoke payment plans, premium support and more
-
-                    </p>
-      
-                    <!-- <div class="input-group mb-3 mt-5 bg-form-gray p-2">
-                      <input type="text" class="form-control input-transparent" placeholder="Select Location" aria-label="Select Home" aria-describedby="basic-addon2">
-                      <button class="btn btn-prim input-group-text fw-medium" id="basic-addon2">Browse Homes</button>
-                    </div>
-       -->
-                    <div class="col-md-7">
-                      <div class="d-flex home-flex">
-                        <div>
-                           <p class="tx-blue">
-                             <!-- <img src="./img/check.svg" class="img-fluid" alt=""> -->
-                             <a href="" class="btn btn-new tx-14 tx-blue  me-1 px-3">
-                              Save Money
-                             </a>
-                          </p>
-                        </div>
-                        <div>
-                          <p class="tx-blue">
-                            <!-- <img src="./img/check.svg" class="img-fluid" alt="">
-                          Save Process -->
-                          <a href="" class="btn btn-new tx-14 tx-blue px-4 w-100">
-                            Save Process
-                           </a>
-
-                         </p>
-                       </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-7 order-md-2 order-1">
-                    <div class="">
-                     <img src="./img/Pay Later.png" class="img-fluid neg-img d-block w-100" alt="" srcset="">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-md-5 col-12 order-md-1 order-2">
-                    <div class="col-xl-11 top-pad">
-                      <p class="tx-55 tx-blue fw-bold">
-                        Own a home on your own terms.
-                      </p>
-                    </div>
-                    <p class="tx-18 tx-blue col-xl-9">
-                      Find good quality homes with bespoke payment plans, premium support and more
-                    </p>
-      
-                    <!-- <div class="input-group mb-3 mt-5 bg-form-gray p-2">
-                      <input type="text" class="form-control input-transparent" placeholder="Select Location" aria-label="Select Home" aria-describedby="basic-addon2">
-                      <button class="btn btn-prim input-group-text fw-medium" id="basic-addon2">Browse Homes</button>
-                    </div>
-       -->
-                    <div class="col-md-7">
-                      <div class="d-flex home-flex">
-                        <div>
-                           <p class="tx-blue">
-                             <!-- <img src="./img/check.svg" class="img-fluid" alt=""> -->
-                             <a href="" class="btn btn-new tx-14 tx-blue  me-1 px-3">
-                              Save Money
-                             </a>
-                          </p>
-                        </div>
-                        <div>
-                          <p class="tx-blue">
-                            <!-- <img src="./img/check.svg" class="img-fluid" alt="">
-                          Save Process -->
-                          <a href="" class="btn btn-new tx-14 tx-blue px-4 w-100">
-                            Save Process
-                           </a>
-
-                         </p>
-                       </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-7 order-md-2 order-1">
-                    <div class="">
-                     <img src="./img/Pay Later.png" class="img-fluid neg-img d-block w-100" alt="" srcset="">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-md-5 col-12 order-md-1 order-2">
-                    <div class="col-xl-9 top-pad">
-                      <p class="tx-55 tx-blue fw-bold">
-                        Invest rent.
-                        Break free.
-                      </p>
-                      
-                    </div>
-                    <p class="tx-18 col-xl-10 tx-blue">
-                      Paying rent for a home that you can't own, feels like being caught in a trap. Homegiddy helps you to break free by letting you have a home you can own with rents.
-                    </p>
-      
-                    <!-- <div class="input-group mb-3 mt-5 bg-form-gray p-2">
-                      <input type="text" class="form-control input-transparent" placeholder="Select Location" aria-label="Select Home" aria-describedby="basic-addon2">
-                      <button class="btn btn-prim input-group-text fw-medium" id="basic-addon2">Browse Homes</button>
-                    </div>
-       -->
-                    <div class="col-md-7">
-                      <div class="d-flex home-flex">
-                        <div>
-                           <p class="tx-blue">
-                             <!-- <img src="./img/check.svg" class="img-fluid" alt=""> -->
-                             <a href="" class="btn btn-new tx-14 tx-blue  me-1 px-3">
-                              Save Money
-                             </a>
-                          </p>
-                        </div>
-                        <div>
-                          <p class="tx-blue">
-                            <!-- <img src="./img/check.svg" class="img-fluid" alt="">
-                          Save Process -->
-                          <a href="" class="btn btn-new tx-14 tx-blue px-4 w-100">
-                            Save Process
-                           </a>
-
-                         </p>
-                       </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-7 order-md-2 order-1">
-                    <div class="">
-                     <img src="./img/Home.png" class="img-fluid neg-img d-block w-100" alt="" srcset="">
-                    </div>
-                  </div>
-                </div>
+            <div class="col-md-7 order-md-2 order-1">
+              <div class="">
+               <img src="./img/Pay Later.png" class="img-fluid neg-img d-block w-100" alt="" srcset="">
               </div>
             </div>
-            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button> -->
           </div>
          
         </div>
@@ -222,8 +104,8 @@
     </section>
     <section id="why">
       <div class="container py-4">
-        <p class="mb-2">Why HomeGiddy?</p>
-        <div class="row justify-content-between">
+        <!-- <p class="mb-2">Why HomeGiddy?</p> -->
+        <div class="row justify-content-between mt-3">
           <div class="col-md-6 col-12 mb-3 mb-md-0">
              <p class="tx-30 tx-display fw-bold">Homeownership made affordable and seamless with tech</p>
           </div>
@@ -410,10 +292,10 @@
     </section>
     <section id="started">
       <div class="container pt-5">
-        <p class="pt-4 mb-2">Getting Started</p>
-        <div class="row justify-content-between">
+        <!-- <p class="pt-4 mb-2">Getting Started</p> -->
+        <div class="row justify-content-between mt-5">
           <div class="col-md-5 col-12 mb-3 mb-md-0">
-             <p class="tx-28 tx-display fw-bold">Get home in 4 easy steps</p>
+             <p class="tx-28 tx-display fw-bold mb-0">Get home in 4 easy steps</p>
           </div>
           <div class="col-md-4 col-12">
             <!-- <div class="d-flex justify-content-md-end">
@@ -476,7 +358,7 @@
           <div class="col-md-6 bg-wh col-12"></div>
           <div class="col-md-6 bg-blue">
             <div class="p-5">
-               <p class="fw-medium col-xl-4">Why choose HomeGiddy?</p>
+               <!-- <p class="fw-medium col-xl-4">Why choose HomeGiddy?</p> -->
               <p class="tx-30 tx-display fw-bold mb-5">Homeownership plan like no other</p>
 
               <div>
@@ -652,6 +534,46 @@
   </div>
 
 </footer>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xll">
+    <div class="modal-content bg-blue height-100 ">
+      <div class="modal-header border-bottom-0">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row pad-modal">
+          <div class="col-md-4 mb-3">
+            <select class="form-select form-select-lg mb-3 form-bd" aria-label=".form-select-lg example">
+              <option selected>Apartment
+                
+                </option>
+              <option value="1">Bungalow</option>
+              <option value="2">  Duplex
+              </option>
+              <option value="3">
+                Semi-detached duplex
+              </option>
+              <option value="4">
+                Maisonette detached house
+              </option>
+            </select>
+          </div>
+          <div class="col-md-5 mb-3">
+            <input class="form-control form-control-lg form-bd" type="text" placeholder="Location" aria-label="Location">
+          </div>
+          <div class="col-md-3">
+            <button class="btn btn-prim w-100 btn-lg">Search</button>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+</div>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
