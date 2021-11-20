@@ -59,7 +59,7 @@ body{
 
 }
 .top-pad{
-  padding-top: 200px;
+  padding-top: 17rem;
 }
 .carr{
   margin-top: -75px;
@@ -396,7 +396,7 @@ border-color: rgba(251, 175, 0, 1);
     width: 100%;
   }
   .top-pad{
-    padding-top: 25px;
+    padding-top: 11rem;
   }
   .desk-top{
     padding-top: 10px;
@@ -456,4 +456,14 @@ border-color: rgba(251, 175, 0, 1);
   /* .pad-modal{
     padding-top: 7rem;
   } */
+  .carr{
+    margin-top: 0px;
+  }
+  .carousel-item img{
+    height: 57vh;
+  }
+  .dropnav{
+    background-color: rgb(243, 233, 233);
+    opacity: 0.95;
+  }
 }
