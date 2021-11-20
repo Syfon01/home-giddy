@@ -59,9 +59,22 @@ body{
 
 }
 .top-pad{
-  padding-top: 100px;
+  padding-top: 200px;
 }
-
+.carr{
+  margin-top: -75px;
+  z-index: 0;
+}
+.myNav {
+  position:absolute;
+  top:30px;
+  z-index:10;
+  background:transparent;
+  width:85%;
+}
+.heade{
+  position: relative;
+}
 .neg-img{
   margin-top: -120px;
 }
@@ -365,13 +378,10 @@ border-color: rgba(251, 175, 0, 1);
 .pic-neg{
   margin-top: -3rem;
 }
-
-/* Make the image fully responsive */
-.carousel-inner img {
-  /* width: 100%; */
-  /* height: 100%; */
-}
-
+.call{
+  position:absolute;
+      top:0px;
+  }
 
 
 #frontpage{
