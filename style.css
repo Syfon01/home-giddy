@@ -519,3 +519,6 @@ border-color: rgba(251, 175, 0, 1);
 .ht-100v{
   min-height: 100vh;
 }
+.tx-12{
+  font-size: 0.75rem;
+}
