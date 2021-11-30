@@ -481,6 +481,15 @@ border-color: rgba(251, 175, 0, 1);
   #ready{
     padding-top: 0px;
   }
+  
+.md-form::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 1; /* Firefox */
+  font-size: 0.75rem;
+}
+.form-select-lg.md-form{
+  font-size: 0.75rem!important;
+}
 }
 .nav-pad{
   padding-bottom: 70px;
