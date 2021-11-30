@@ -516,3 +516,6 @@ border-color: rgba(251, 175, 0, 1);
   background: rgba(0, 0, 61, 0.8);
   color: #fff;
 }
+.ht-100v{
+  min-height: 100vh;
+}
