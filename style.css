@@ -398,8 +398,11 @@ border-color: rgba(251, 175, 0, 1);
   padding: 50px;
 }
 @media (max-width: 575.98px) { 
+  .tx-center{
+    text-align: center;
+  }
   .btn-prim{
-    width: 100%;
+    /* width: 100%; */
   }
   .top-pad{
     padding-top: 5rem;
