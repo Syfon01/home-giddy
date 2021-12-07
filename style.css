@@ -128,6 +128,9 @@ body{
 .tx-primary{
   color: rgba(251, 175, 0, 1) ;
 }
+.bg-prima{
+  background-color: #FCD581 ;
+}
 .item {
   /* position:relative; */
   /* padding-top:20px; */
@@ -533,4 +536,13 @@ border-color: rgba(251, 175, 0, 1);
 }
 .tx-12{
   font-size: 0.75rem;
+}
+#auth{
+background-image: url(./img/auth-left.png), url(./img/auth-right.png);
+background-position: left center, right center;
+background-repeat: no-repeat;
+background-size: contain;
+}
+.tx-gray{
+  color: rgba(153, 153, 153, 1);
 }
