@@ -546,3 +546,34 @@ background-size: contain;
 .tx-gray{
   color: rgba(153, 153, 153, 1);
 }
+.not-icon{
+  border: 1.2px solid rgba(0, 0, 61, 1);
+  margin-top: 9px;
+  margin-left: -4px;
+  height: 8px;
+  width: 8px;
+}
+.bg-pink{
+  background-color:#FFE5EE;
+}
+.bg-violet{
+  background-color: #DFCDFB;
+}
+.bg-light-green{
+  background-color: #CDFFE2;
+}
+.bg-green-1{
+  background-color: rgba(33, 150, 83, 1);
+}
+.shadow-smm{
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.02);
+}
+.bg-whiter{
+  background-color: rgba(246, 247, 251, 0.5);
+}
+.rounded-20{
+  border-radius: 20px;
+}
+.rounded-10{
+  border-radius: 10px;
+}
